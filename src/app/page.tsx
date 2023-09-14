@@ -35,7 +35,7 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="grid md:grid grid-cols-2 lg:grid-cols-4 gap-2 lg:absolute">
+          <div className="grid md:grid grid-cols-2 lg:grid-cols-4 gap-4 lg:absolute">
             {[1, 2, 3, 4].map((ele) => {
               return (
                 <Card
