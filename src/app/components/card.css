@@ -1,0 +1,13 @@
+.arrow__card {
+    position: relative;
+  }
+  
+  .arrow__card:after {
+    content: '';  
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #bc8a8d transparent transparent;
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
